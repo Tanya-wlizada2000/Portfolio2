@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    
+}
+
+header{
+    height: 100vh;
+    background-color: #000000;
+    padding: 50px 20px;
+    max-width: none;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.logo-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+#t1{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#t1:hover {
+    color: #c40000;
+    margin: 3px;
+}
+
+#t2{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#t2:hover {
+    color:#c40000 ;
+    margin: 3px;
+}
+
+#t3{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#t3:hover {
+    color:#c40000 ;
+    margin: 3px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.image-Lina:hover {
+     opacity: 0.5;
+}
+
+.logo-page > img:hover{
+     opacity: 0.5;
+
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.banner-word > p{
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.banner-word > a{
+    padding: 16px 50px;
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 20px;
+    background-color: #c40000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 100px;
+}
+
+.banner-word > a:hover{
+    opacity: 0.5;
+}
+
+#head2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    position: relative;
+    color: #ffffff;
+    background-color: #b10303;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: -1px 0 5px 10px rgb(151, 148, 148)  ;
+}
+
+.container{
+    text-align: center;
+    background-color: #000000;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: -1px 0 5px 5px rgb(151, 148, 148)  ;
+}
+
+.container:hover{
+    opacity: 0.5;
+}
+ 
+.container > img{
+    height: 60px;
+}
+
+
+
